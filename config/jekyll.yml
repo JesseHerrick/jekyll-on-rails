@@ -9,6 +9,7 @@ assets:
   sources:
     - _assets/stylesheets
     - _assets/javascripts
+    - _assets/javascripts/vendor
     - _assets/images
   cachebust: hard
   js_compressor: uglifier # included by rails
