@@ -4,6 +4,12 @@ plugins:
 
 # assets
 assets:
+  dirname: assets
+  baseurl: /blog/assets/
+  sources:
+    - _assets/stylesheets
+    - _assets/javascripts
+    - _assets/images
   cachebust: hard
   js_compressor: uglifier # included by rails
   css_compressor: sass # included by rails
